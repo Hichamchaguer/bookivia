@@ -18,10 +18,33 @@
         <entry key="..\:/Users/AMSAAFI/Documents/bookivia/app/src/main/res/layout/activity_login.xml" value="0.2246376811594203" />
         <entry key="..\:/Users/AMSAAFI/Documents/bookivia/app/src/main/res/layout/activity_main.xml" value="0.2246376811594203" />
         <entry key="..\:/Users/AMSAAFI/Documents/bookivia/app/src/main/res/layout/activity_sign_up.xml" value="0.2246376811594203" />
+        <entry key="..\:/bookivia/app/src/main/res/drawable/cashflow_design.xml" value="0.131" />
+        <entry key="..\:/bookivia/app/src/main/res/drawable/categorieicon_design.xml" value="0.1" />
+        <entry key="..\:/bookivia/app/src/main/res/drawable/dune_design.xml" value="0.131" />
+        <entry key="..\:/bookivia/app/src/main/res/drawable/footer_design.xml" value="0.1" />
+        <entry key="..\:/bookivia/app/src/main/res/drawable/fourhour.xml" value="0.225" />
+        <entry key="..\:/bookivia/app/src/main/res/drawable/fourhour_design.xml" value="0.225" />
+        <entry key="..\:/bookivia/app/src/main/res/drawable/habit_design.xml" value="0.131" />
+        <entry key="..\:/bookivia/app/src/main/res/drawable/martian_design.xml" value="0.131" />
+        <entry key="..\:/bookivia/app/src/main/res/drawable/midnight_design.xml" value="0.131" />
+        <entry key="..\:/bookivia/app/src/main/res/drawable/mystorieicon_design.xml" value="0.1" />
+        <entry key="..\:/bookivia/app/src/main/res/drawable/now_design.xml" value="0.131" />
+        <entry key="..\:/bookivia/app/src/main/res/drawable/pom_design.xml" value="0.131" />
+        <entry key="..\:/bookivia/app/src/main/res/drawable/profileicon_design.xml" value="0.1" />
         <entry key="..\:/bookivia/app/src/main/res/drawable/raduis_form.xml" value="0.1" />
+        <entry key="..\:/bookivia/app/src/main/res/drawable/red_design.xml" value="0.131" />
+        <entry key="..\:/bookivia/app/src/main/res/drawable/richdad.xml" value="0.131" />
+        <entry key="..\:/bookivia/app/src/main/res/drawable/richdad_design.xml" value="0.131" />
+        <entry key="..\:/bookivia/app/src/main/res/drawable/snow_design.xml" value="0.131" />
+        <entry key="..\:/bookivia/app/src/main/res/drawable/subtle_design.xml" value="0.131" />
+        <entry key="..\:/bookivia/app/src/main/res/drawable/think_design.xml" value="0.131" />
+        <entry key="..\:/bookivia/app/src/main/res/drawable/unfair_design.xml" value="0.131" />
         <entry key="..\:/bookivia/app/src/main/res/drawable/welcomepic.xml" value="0.1" />
         <entry key="..\:/bookivia/app/src/main/res/drawable/welcomepic_design.xml" value="0.1" />
-        <entry key="..\:/bookivia/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/bookivia/app/src/main/res/drawable/who_design.xml" value="0.131" />
+        <entry key="..\:/bookivia/app/src/main/res/layout/activity_login.xml" value="0.275" />
+        <entry key="..\:/bookivia/app/src/main/res/layout/activity_main.xml" value="0.21621621621621623" />
+        <entry key="..\:/bookivia/app/src/main/res/layout/activity_sign_up.xml" value="0.275" />
         <entry key="..\:/bookivia/app/src/main/res/layout/activity_welcome.xml" value="0.275" />
       </map>
     </option>
