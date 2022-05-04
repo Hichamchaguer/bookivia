@@ -12,13 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bookivia">
         <activity
-            android:name=".ebooks"
+            android:name=".mystories"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ebooks"
+            android:exported="false">
+
         </activity>
         <activity
             android:name=".audiobook"
