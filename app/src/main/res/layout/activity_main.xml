@@ -73,7 +73,7 @@
         app:srcCompat="@drawable/footer_design" />
 
     <Button
-        android:id="@+id/btn_profile_home"
+        android:id="@+id/btn_profile_profiles"
         android:layout_width="39dp"
         android:layout_height="24dp"
         android:layout_marginBottom="-45dp"
@@ -82,46 +82,46 @@
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_mystorie_home" />
+        app:layout_constraintStart_toEndOf="@+id/btn_mystorie_profiles" />
 
     <Button
-        android:id="@+id/btn_ebook_home"
+        android:id="@+id/btn_ebook_profiles"
         android:layout_width="39dp"
         android:layout_height="24dp"
         android:layout_marginBottom="-45dp"
         android:background="@drawable/ebookicon_desgn"
         android:backgroundTint="@color/purple_700"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
-        app:layout_constraintEnd_toStartOf="@+id/btn_mystorie_home"
+        app:layout_constraintEnd_toStartOf="@+id/btn_mystorie_profiles"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_audio_home" />
+        app:layout_constraintStart_toEndOf="@+id/btn_audio_profiles" />
 
     <Button
-        android:id="@+id/btn_cat_home"
+        android:id="@+id/btn_cat_profiles"
         android:layout_width="39dp"
         android:layout_height="24dp"
         android:layout_marginBottom="-45dp"
         android:background="@drawable/categorieicon_design"
         android:backgroundTint="@color/purple_700"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
-        app:layout_constraintEnd_toStartOf="@+id/btn_audio_home"
+        app:layout_constraintEnd_toStartOf="@+id/btn_audio_profiles"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_home_home" />
+        app:layout_constraintStart_toEndOf="@+id/btn_home_profiles" />
 
     <Button
-        android:id="@+id/btn_home_home"
+        android:id="@+id/btn_home_profiles"
         android:layout_width="39dp"
         android:layout_height="24dp"
         android:layout_marginBottom="-45dp"
         android:background="@drawable/homeicon_design"
         android:backgroundTint="@color/purple_700"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
-        app:layout_constraintEnd_toStartOf="@+id/btn_cat_home"
+        app:layout_constraintEnd_toStartOf="@+id/btn_cat_profiles"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn_mystorie_home"
+        android:id="@+id/btn_mystorie_profiles"
         android:layout_width="39dp"
         android:layout_height="24dp"
         android:layout_marginBottom="-45dp"
@@ -129,21 +129,21 @@
         android:backgroundTint="@color/purple_700"
         android:textColor="@color/purple_500"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
-        app:layout_constraintEnd_toStartOf="@+id/btn_profile_home"
+        app:layout_constraintEnd_toStartOf="@+id/btn_profile_profiles"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_ebook_home" />
+        app:layout_constraintStart_toEndOf="@+id/btn_ebook_profiles" />
 
     <Button
-        android:id="@+id/btn_audio_home"
+        android:id="@+id/btn_audio_profiles"
         android:layout_width="39dp"
         android:layout_height="24dp"
         android:layout_marginBottom="-45dp"
         android:background="@drawable/audiobookicon_design"
         android:backgroundTint="@color/purple_700"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
-        app:layout_constraintEnd_toStartOf="@+id/btn_ebook_home"
+        app:layout_constraintEnd_toStartOf="@+id/btn_ebook_profiles"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_cat_home" />
+        app:layout_constraintStart_toEndOf="@+id/btn_cat_profiles" />
 
     <HorizontalScrollView
         android:layout_width="409dp"

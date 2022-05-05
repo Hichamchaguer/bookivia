@@ -28,10 +28,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.764"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView17"
+        android:onClick="play"/>
 
     <SeekBar
-        android:id="@+id/seekBar"
+        android:id="@+id/seekbar"
         android:layout_width="362dp"
         android:layout_height="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -67,7 +68,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.886"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/seekBar"
+        app:layout_constraintTop_toBottomOf="@+id/seekbar"
         app:layout_constraintVertical_bias="0.133" />
 
     <Button
@@ -79,7 +80,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/seekBar"
+        app:layout_constraintTop_toBottomOf="@+id/seekbar"
         app:layout_constraintVertical_bias="0.133"
         android:onClick="play"/>
 
@@ -102,14 +103,13 @@
         android:id="@+id/btn_shuffle_listener"
         android:layout_width="25dp"
         android:layout_height="25dp"
-
         android:background="@drawable/ic_shuffle"
         android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.088"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/seekBar"
+        app:layout_constraintTop_toBottomOf="@+id/seekbar"
         app:layout_constraintVertical_bias="0.133" />
 
     <ImageView
@@ -125,7 +125,7 @@
         app:srcCompat="@drawable/footer_design" />
 
     <Button
-        android:id="@+id/btn_profile_home"
+        android:id="@+id/btn_profile_profiles"
         android:layout_width="39dp"
         android:layout_height="24dp"
         android:layout_marginBottom="-45dp"
@@ -134,46 +134,46 @@
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_mystorie_home" />
+        app:layout_constraintStart_toEndOf="@+id/btn_mystorie_profiles" />
 
     <Button
-        android:id="@+id/btn_ebook_home"
+        android:id="@+id/btn_ebook_profiles"
         android:layout_width="39dp"
         android:layout_height="24dp"
         android:layout_marginBottom="-45dp"
         android:background="@drawable/ebookicon_desgn"
         android:backgroundTint="@color/purple_700"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
-        app:layout_constraintEnd_toStartOf="@+id/btn_mystorie_home"
+        app:layout_constraintEnd_toStartOf="@+id/btn_mystorie_profiles"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_audio_home" />
+        app:layout_constraintStart_toEndOf="@+id/btn_audio_profiles" />
 
     <Button
-        android:id="@+id/btn_cat_home"
+        android:id="@+id/btn_cat_profiles"
         android:layout_width="39dp"
         android:layout_height="24dp"
         android:layout_marginBottom="-45dp"
         android:background="@drawable/categorieicon_design"
         android:backgroundTint="@color/purple_700"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
-        app:layout_constraintEnd_toStartOf="@+id/btn_audio_home"
+        app:layout_constraintEnd_toStartOf="@+id/btn_audio_profiles"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_home_home" />
+        app:layout_constraintStart_toEndOf="@+id/btn_home_profiles" />
 
     <Button
-        android:id="@+id/btn_home_home"
+        android:id="@+id/btn_home_profiles"
         android:layout_width="39dp"
         android:layout_height="24dp"
         android:layout_marginBottom="-45dp"
         android:background="@drawable/homeicon_design"
         android:backgroundTint="@color/purple_700"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
-        app:layout_constraintEnd_toStartOf="@+id/btn_cat_home"
+        app:layout_constraintEnd_toStartOf="@+id/btn_cat_profiles"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn_mystorie_home"
+        android:id="@+id/btn_mystorie_profiles"
         android:layout_width="39dp"
         android:layout_height="24dp"
         android:layout_marginBottom="-45dp"
@@ -181,21 +181,21 @@
         android:backgroundTint="@color/purple_700"
         android:textColor="@color/purple_500"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
-        app:layout_constraintEnd_toStartOf="@+id/btn_profile_home"
+        app:layout_constraintEnd_toStartOf="@+id/btn_profile_profiles"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_ebook_home" />
+        app:layout_constraintStart_toEndOf="@+id/btn_ebook_profiles" />
 
     <Button
-        android:id="@+id/btn_audio_home"
+        android:id="@+id/btn_audio_profiles"
         android:layout_width="39dp"
         android:layout_height="24dp"
         android:layout_marginBottom="-45dp"
         android:background="@drawable/audiobookicon_design"
         android:backgroundTint="@color/purple_700"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
-        app:layout_constraintEnd_toStartOf="@+id/btn_ebook_home"
+        app:layout_constraintEnd_toStartOf="@+id/btn_ebook_profiles"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_cat_home" />
+        app:layout_constraintStart_toEndOf="@+id/btn_cat_profiles" />
 
     <ImageView
         android:id="@+id/imageView18"
