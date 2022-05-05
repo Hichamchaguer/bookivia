@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".listener">
+
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="416dp"
+        android:layout_height="315dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/rectangle" />
+
+    <Button
+        android:id="@+id/btn_play_listener"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="-80dp"
+        android:background="@drawable/playicon_design"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="362dp"
+        android:layout_height="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtstart"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <TextView
+        android:id="@+id/txtstart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="0:00"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintLeft_toLeftOf="@+id/seekBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17"
+        app:layout_constraintVertical_bias="0.292" />
+
+    <Button
+        android:id="@+id/btn_repeat_listener"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/ic_replay"
+        android:backgroundTint="@color/black"
+        android:rotation="-4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar"
+        app:layout_constraintVertical_bias="0.133" />
+
+    <Button
+        android:id="@+id/btn_play2_listener"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@android:drawable/ic_media_play"
+        android:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar"
+        app:layout_constraintVertical_bias="0.133"
+        android:onClick="play"/>
+
+    <TextView
+        android:id="@+id/txt_end_listener"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="4:20"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintLeft_toRightOf="@+id/seekBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17"
+        app:layout_constraintVertical_bias="0.292" />
+
+    <Button
+        android:id="@+id/btn_shuffle_listener"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+
+        android:background="@drawable/ic_shuffle"
+        android:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar"
+        app:layout_constraintVertical_bias="0.133" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="410dp"
+        android:layout_height="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/footer_design" />
+
+    <Button
+        android:id="@+id/btn_profile_home"
+        android:layout_width="39dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="-45dp"
+        android:background="@drawable/profileicon_design"
+        android:backgroundTint="@color/purple_700"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_mystorie_home" />
+
+    <Button
+        android:id="@+id/btn_ebook_home"
+        android:layout_width="39dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="-45dp"
+        android:background="@drawable/ebookicon_desgn"
+        android:backgroundTint="@color/purple_700"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toStartOf="@+id/btn_mystorie_home"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_audio_home" />
+
+    <Button
+        android:id="@+id/btn_cat_home"
+        android:layout_width="39dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="-45dp"
+        android:background="@drawable/categorieicon_design"
+        android:backgroundTint="@color/purple_700"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toStartOf="@+id/btn_audio_home"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_home_home" />
+
+    <Button
+        android:id="@+id/btn_home_home"
+        android:layout_width="39dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="-45dp"
+        android:background="@drawable/homeicon_design"
+        android:backgroundTint="@color/purple_700"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toStartOf="@+id/btn_cat_home"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_mystorie_home"
+        android:layout_width="39dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="-45dp"
+        android:background="@drawable/mystorieicon_design"
+        android:backgroundTint="@color/purple_700"
+        android:textColor="@color/purple_500"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toStartOf="@+id/btn_profile_home"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_ebook_home" />
+
+    <Button
+        android:id="@+id/btn_audio_home"
+        android:layout_width="39dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="-45dp"
+        android:background="@drawable/audiobookicon_design"
+        android:backgroundTint="@color/purple_700"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toStartOf="@+id/btn_ebook_home"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_cat_home" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="-280dp"
+        app:layout_constraintBottom_toTopOf="@+id/seekBar"
+        app:layout_constraintEnd_toStartOf="@+id/txt_end_listener"
+        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintStart_toEndOf="@+id/txtstart"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/cashflow" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
