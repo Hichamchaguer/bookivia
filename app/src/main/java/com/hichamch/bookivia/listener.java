@@ -29,13 +29,9 @@ Button btn_play2_listener,btn_play_listener;
 
 
     }
-    Runnable p_bar = new Runnable() {
-        @Override
-        public void run() {
-            seekbar.setProgress(player.getCurrentPosition());
-            handler.postDelayed(this,1000);
-        }
-    };
+
+
+
     public void play(View v){
         if(player == null)
         {
@@ -43,9 +39,6 @@ Button btn_play2_listener,btn_play_listener;
             btn_play2_listener.setBackgroundResource(R.drawable.ic_pause);
             player = MediaPlayer.create(this,R.raw.loseyouself);
             player.start();
-            seekbar.setMax(player.getDuration());
-            handler.removeCallbacks(p_bar);
-            handler.postDelayed(p_bar,1000);
         }
 
         else

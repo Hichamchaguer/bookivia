@@ -8,14 +8,14 @@
 
     <ImageView
         android:id="@+id/welcomepic_welcome"
-        android:layout_width="440dp"
+        android:layout_width="445dp"
         android:layout_height="465dp"
         android:layout_marginTop="265dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/welcomepic_design" />
 
     <TextView
@@ -34,7 +34,7 @@
         android:id="@+id/btn_getstarted_welcome"
         android:layout_width="268dp"
         android:layout_height="52dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="36dp"
         android:background="@drawable/raduis_form"
         android:backgroundTint="@android:color/transparent"
         android:text="Get Started"
@@ -42,6 +42,31 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:text="BOOKIVIA "
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/welcomepic_welcome" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:text="Open a World of Reading"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/welcomepic_welcome" />
 </androidx.constraintlayout.widget.ConstraintLayout>

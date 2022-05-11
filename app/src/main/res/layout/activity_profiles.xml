@@ -19,24 +19,6 @@
         app:srcCompat="@drawable/rectangle" />
 
     <EditText
-        android:id="@+id/txt_resetpsw_profiles"
-        android:layout_width="336dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/raduis_form"
-        android:backgroundTint="@color/material_dynamic_neutral90"
-        android:ems="10"
-        android:gravity="center"
-        android:hint="Reset Password"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_password_profiles"
-        app:layout_constraintVertical_bias="0.144" />
-
-    <EditText
         android:id="@+id/txt_email_profiles"
         android:layout_width="344dp"
         android:layout_height="48dp"
@@ -68,14 +50,13 @@
         android:id="@+id/btn_done_profiles"
         android:layout_width="337dp"
         android:layout_height="44dp"
-        android:layout_marginTop="8dp"
         android:background="@drawable/gradientbar_design"
         android:text="Done"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_resetpsw_profiles"
-        app:layout_constraintVertical_bias="0.131" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_resetpassword_profile" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -174,5 +155,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_resetpassword_profile"
+        android:layout_width="337dp"
+        android:layout_height="40dp"
+        android:background="@drawable/raduis_form"
+        android:backgroundTint="@color/material_dynamic_neutral80"
+        android:text="Reset your Password"
+        app:layout_constraintBottom_toTopOf="@+id/btn_done_profiles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_password_profiles" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

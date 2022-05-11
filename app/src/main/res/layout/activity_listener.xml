@@ -31,18 +31,18 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView17"
         android:onClick="play"/>
 
-    <SeekBar
-        android:id="@+id/seekbar"
-        android:layout_width="362dp"
-        android:layout_height="24dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.326"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtstart"
-        app:layout_constraintVertical_bias="0.054" />
+   <SeekBar
+       android:id="@+id/seekbar"
+       android:layout_width="362dp"
+       android:layout_height="24dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.551"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/txtstart"
+       app:layout_constraintVertical_bias="0.073" />
 
-    <TextView
+   <TextView
         android:id="@+id/txtstart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -208,7 +208,7 @@
         app:layout_constraintStart_toEndOf="@+id/txtstart"
         app:layout_constraintTop_toBottomOf="@+id/imageView17"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/cashflow" />
+        app:srcCompat="@drawable/richdad" />
 
 
 

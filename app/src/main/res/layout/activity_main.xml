@@ -162,109 +162,123 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button"
-                android:layout_width="146dp"
-                android:layout_height="204dp"
-                android:layout_weight="1"
-                android:background="@drawable/cashflow_design" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="146dp"
-                android:layout_height="204dp"
-                android:layout_weight="1"
-                android:background="@drawable/dune_design" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="146dp"
-                android:layout_height="204dp"
-                android:layout_weight="1"
-                android:background="@drawable/fourhour_design" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="146dp"
-                android:layout_height="204dp"
-                android:layout_weight="1"
-                android:background="@drawable/habit_design" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="146dp"
-                android:layout_height="204dp"
-                android:layout_weight="1"
-                android:background="@drawable/martian_design" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="146dp"
-                android:layout_height="204dp"
-                android:layout_weight="1"
-                android:background="@drawable/midnight_design" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="146dp"
-                android:layout_height="204dp"
-                android:layout_weight="1"
-                android:background="@drawable/now_design" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="146dp"
-                android:layout_height="204dp"
-                android:layout_weight="1"
-                android:background="@drawable/pom_design" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="146dp"
-                android:layout_height="204dp"
-                android:layout_weight="1"
-                android:background="@drawable/red_design" />
-
-            <Button
-                android:id="@+id/button"
+                android:id="@+id/button1"
                 android:layout_width="146dp"
                 android:layout_height="204dp"
                 android:layout_weight="1"
                 android:background="@drawable/richdad_design" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button02"
                 android:layout_width="146dp"
                 android:layout_height="204dp"
                 android:layout_weight="1"
-                android:background="@drawable/snow_design" />
+                android:background="@drawable/dune_design"
+                android:layout_marginLeft="10dp"/>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button3"
                 android:layout_width="146dp"
                 android:layout_height="204dp"
                 android:layout_weight="1"
-                android:background="@drawable/subtle_design" />
+                android:background="@drawable/fourhour_design"
+                android:layout_marginLeft="10dp"/>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button4"
                 android:layout_width="146dp"
                 android:layout_height="204dp"
                 android:layout_weight="1"
-                android:background="@drawable/think_design" />
+                android:background="@drawable/habit_design"
+                android:layout_marginLeft="10dp"/>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button5"
                 android:layout_width="146dp"
                 android:layout_height="204dp"
                 android:layout_weight="1"
-                android:background="@drawable/unfair_design" />
+                android:background="@drawable/martian_design"
+                android:layout_marginLeft="10dp"/>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button6"
                 android:layout_width="146dp"
                 android:layout_height="204dp"
                 android:layout_weight="1"
-                android:background="@drawable/who_design" />
+                android:background="@drawable/midnight_design"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="146dp"
+                android:layout_height="204dp"
+                android:layout_weight="1"
+                android:background="@drawable/now_design"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="146dp"
+                android:layout_height="204dp"
+                android:layout_weight="1"
+                android:background="@drawable/pom_design"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="146dp"
+                android:layout_height="204dp"
+                android:layout_weight="1"
+                android:background="@drawable/red_design"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="146dp"
+                android:layout_height="204dp"
+                android:layout_weight="1"
+                android:background="@drawable/cashflow_design"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="146dp"
+                android:layout_height="204dp"
+                android:layout_weight="1"
+                android:background="@drawable/snow_design"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="146dp"
+                android:layout_height="204dp"
+                android:layout_weight="1"
+                android:background="@drawable/subtle_design"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="146dp"
+                android:layout_height="204dp"
+                android:layout_weight="1"
+                android:background="@drawable/think_design"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="146dp"
+                android:layout_height="204dp"
+                android:layout_weight="1"
+                android:background="@drawable/unfair_design"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="146dp"
+                android:layout_height="204dp"
+                android:layout_weight="1"
+                android:background="@drawable/who_design"
+                android:layout_marginLeft="10dp"/>
         </LinearLayout>
     </HorizontalScrollView>
 
@@ -285,34 +299,38 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/button01"
                 android:layout_width="146dp"
                 android:layout_height="204dp"
                 android:background="@drawable/fourhour_design" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/button20"
                 android:layout_width="146dp"
                 android:layout_height="204dp"
-                android:background="@drawable/now_design" />
+                android:background="@drawable/now_design"
+                android:layout_marginLeft="10dp"/>
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/button03"
                 android:layout_width="146dp"
                 android:layout_height="204dp"
-                android:background="@drawable/midnight_design" />
+                android:background="@drawable/midnight_design"
+                android:layout_marginLeft="10dp"/>
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/button04"
                 android:layout_width="146dp"
                 android:layout_height="204dp"
-                android:background="@drawable/pom_design" />
+                android:background="@drawable/pom_design"
+                android:layout_marginLeft="10dp"/>
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/button05"
                 android:layout_width="146dp"
                 android:layout_height="204dp"
-                android:background="@drawable/richdad_design" />
+                android:background="@drawable/richdad_design"
+                android:layout_marginLeft="10dp"/>
         </LinearLayout>
     </HorizontalScrollView>
 

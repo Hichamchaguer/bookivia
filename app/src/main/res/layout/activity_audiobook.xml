@@ -76,35 +76,39 @@
                         android:layout_width="146dp"
                         android:layout_height="204dp"
                         android:layout_weight="1"
-                        android:background="@drawable/cashflow_design" />
+                        android:background="@drawable/richdad_design" />
 
                     <Button
                         android:id="@+id/button8"
                         android:layout_width="146dp"
                         android:layout_height="204dp"
                         android:layout_weight="1"
-                        android:background="@drawable/pom_design" />
+                        android:background="@drawable/pom_design"
+                        android:layout_marginLeft="10dp"/>
 
                     <Button
                         android:id="@+id/button9"
                         android:layout_width="146dp"
                         android:layout_height="204dp"
                         android:layout_weight="1"
-                        android:background="@drawable/richdad_design" />
+                        android:background="@drawable/cashflow_design"
+                        android:layout_marginLeft="10dp"/>
 
                     <Button
                         android:id="@+id/button10"
                         android:layout_width="146dp"
                         android:layout_height="204dp"
                         android:layout_weight="1"
-                        android:background="@drawable/think_design" />
+                        android:background="@drawable/think_design"
+                        android:layout_marginLeft="10dp"/>
 
                     <Button
                         android:id="@+id/button11"
                         android:layout_width="146dp"
                         android:layout_height="204dp"
                         android:layout_weight="1"
-                        android:background="@drawable/unfair_design" />
+                        android:background="@drawable/unfair_design"
+                        android:layout_marginLeft="10dp"/>
                 </LinearLayout>
             </HorizontalScrollView>
 
@@ -147,28 +151,32 @@
                         android:layout_width="146dp"
                         android:layout_height="204dp"
                         android:layout_weight="1"
-                        android:background="@drawable/martian_design" />
+                        android:background="@drawable/martian_design"
+                        android:layout_marginLeft="10dp"/>
 
                     <Button
                         android:id="@+id/button14"
                         android:layout_width="146dp"
                         android:layout_height="204dp"
                         android:layout_weight="1"
-                        android:background="@drawable/midnight_design" />
+                        android:background="@drawable/midnight_design"
+                        android:layout_marginLeft="10dp"/>
 
                     <Button
                         android:id="@+id/button15"
                         android:layout_width="146dp"
                         android:layout_height="204dp"
                         android:layout_weight="1"
-                        android:background="@drawable/red_design" />
+                        android:background="@drawable/red_design"
+                        android:layout_marginLeft="10dp"/>
 
                     <Button
                         android:id="@+id/button17"
                         android:layout_width="146dp"
                         android:layout_height="204dp"
                         android:layout_weight="1"
-                        android:background="@drawable/snow_design" />
+                        android:background="@drawable/snow_design"
+                        android:layout_marginLeft="10dp"/>
                 </LinearLayout>
             </HorizontalScrollView>
 
@@ -208,28 +216,32 @@
                         android:layout_width="146dp"
                         android:layout_height="204dp"
                         android:layout_weight="1"
-                        android:background="@drawable/habit_design" />
+                        android:background="@drawable/habit_design"
+                        android:layout_marginLeft="10dp"/>
 
                     <Button
                         android:id="@+id/button20"
                         android:layout_width="146dp"
                         android:layout_height="204dp"
                         android:layout_weight="1"
-                        android:background="@drawable/now_design" />
+                        android:background="@drawable/now_design"
+                        android:layout_marginLeft="10dp"/>
 
                     <Button
                         android:id="@+id/button21"
                         android:layout_width="146dp"
                         android:layout_height="204dp"
                         android:layout_weight="1"
-                        android:background="@drawable/subtle_design" />
+                        android:background="@drawable/subtle_design"
+                        android:layout_marginLeft="10dp"/>
 
                     <Button
                         android:id="@+id/button22"
                         android:layout_width="146dp"
                         android:layout_height="204dp"
                         android:layout_weight="1"
-                        android:background="@drawable/who_design" />
+                        android:background="@drawable/who_design"
+                        android:layout_marginLeft="10dp"/>
                 </LinearLayout>
             </HorizontalScrollView>
         </LinearLayout>
