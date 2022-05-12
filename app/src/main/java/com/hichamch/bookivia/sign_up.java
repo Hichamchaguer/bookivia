@@ -1,15 +1,22 @@
 package com.hichamch.bookivia;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -24,6 +31,8 @@ public class sign_up extends AppCompatActivity {
     Button btn_google_signup;
 
     FirebaseAuth mAuth;
+    GoogleSignInOptions gso;
+    GoogleSignInClient gsc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,8 +56,45 @@ public class sign_up extends AppCompatActivity {
             startActivity(new Intent(sign_up.this, login.class));
         });
 
+        gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestEmail()
+                .build();
+        gsc = GoogleSignIn.getClient(this,gso);
+        btn_google_signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                signin();
+            }
+        });
+
 
     }
+    private void signin(){
+        Intent intent=gsc.getSignInIntent();
+        startActivityForResult(intent, 100);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 100){
+            Task<GoogleSignInAccount> task=GoogleSignIn.getSignedInAccountFromIntent(data);
+            try {
+                task.getResult(ApiException.class);
+                MainActivity();
+            } catch (ApiException e){
+                Toast.makeText(this ,"Error",Toast.LENGTH_SHORT).show();
+            }
+        }
+    }
+
+    private void MainActivity() {
+        finish();
+        Intent intent=new Intent(getApplicationContext(),MainActivity.class);
+        startActivity(intent);
+    }
+
+
     private void createuser(){
         String email = txt_email_signup.getText().toString();
         String password = txt_password_signup.getText().toString();
@@ -76,7 +122,6 @@ public class sign_up extends AppCompatActivity {
          else {
             txt_confirme_signup.setError("Password Does Not Match");
             txt_confirme_signup.requestFocus();
-
 
         }
     }
