@@ -24,6 +24,7 @@
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
         android:ems="10"
+        android:hint="username"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,6 +39,7 @@
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
         android:ems="10"
+        android:hint="Email"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,7 +51,7 @@
     <Button
         android:id="@+id/btn_done_profiles"
         android:layout_width="337dp"
-        android:layout_height="44dp"
+        android:layout_height="48dp"
         android:background="@drawable/gradientbar_design"
         android:text="Done"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
@@ -66,7 +68,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/footer_design" />
 
@@ -80,7 +81,8 @@
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_mystorie_profiles" />
+        app:layout_constraintStart_toEndOf="@+id/btn_mystorie_profiles"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/btn_ebook_profiles"
@@ -92,7 +94,8 @@
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toStartOf="@+id/btn_mystorie_profiles"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_audio_profiles" />
+        app:layout_constraintStart_toEndOf="@+id/btn_audio_profiles"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/btn_cat_profiles"
@@ -104,7 +107,8 @@
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toStartOf="@+id/btn_audio_profiles"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_home_profiles" />
+        app:layout_constraintStart_toEndOf="@+id/btn_home_profiles"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/btn_home_profiles"
@@ -116,7 +120,8 @@
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toStartOf="@+id/btn_cat_profiles"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/btn_mystorie_profiles"
@@ -129,7 +134,8 @@
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toStartOf="@+id/btn_profile_profiles"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_ebook_profiles" />
+        app:layout_constraintStart_toEndOf="@+id/btn_ebook_profiles"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/btn_audio_profiles"
@@ -141,7 +147,8 @@
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toStartOf="@+id/btn_ebook_profiles"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_cat_profiles" />
+        app:layout_constraintStart_toEndOf="@+id/btn_cat_profiles"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textName_profile"
@@ -159,7 +166,7 @@
     <Button
         android:id="@+id/btn_resetpassword_profile"
         android:layout_width="337dp"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:background="@drawable/raduis_form"
         android:backgroundTint="@color/material_dynamic_neutral80"
         android:text="Reset your Password"

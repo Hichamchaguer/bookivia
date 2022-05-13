@@ -9,11 +9,19 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+
 public class profiles extends AppCompatActivity {
     public Button btn_home_profiles,btn_cat_profiles,btn_audio_profiles,btn_ebook_profiles,btn_profile_profiles,btn_mystorie_profiles;
-    private TextView textName_profile;
+    private TextView textName_profile,name,email;
     public static final String PROFILE = "PROFILE";
     private String profile;
+
+    GoogleSignInOptions gso;
+    GoogleSignInClient gsc;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +34,8 @@ public class profiles extends AppCompatActivity {
         btn_profile_profiles=(Button) findViewById(R.id.btn_profile_profiles);
         btn_mystorie_profiles=(Button) findViewById(R.id.btn_mystorie_profiles);
         textName_profile = findViewById(R.id.textName_profile);
+        name = findViewById(R.id.txt_username_profiles);
+        email = findViewById(R.id.txt_email_profiles);
 
        /*Intent i = getIntent();
         profile = i.getStringExtra(PROFILE);
@@ -70,6 +80,21 @@ public class profiles extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestEmail()
+                .build();
+        gsc = GoogleSignIn.getClient(this,gso);
+
+        GoogleSignInAccount account=GoogleSignIn.getLastSignedInAccount(this);
+        if (account!=null){
+            String Name=account.getDisplayName();
+            String Mail= account.getEmail();
+
+            name.setText(Name);
+            email.setText(Mail);
+            textName_profile.setText(Name);
+        }
 
 
     }
