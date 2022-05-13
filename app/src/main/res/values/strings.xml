@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Bookivia</string>
+    <string name="Rich_Dad_Poor_Dad">Click  <a href="https://drive.google.com/file/d/0B7OmNithn8yCZ2RVeTRYT1Y2LVk/view?resourcekey=0-p-IGst0nAVCPKZNAgwHTjg">RICH DAD POOR DAD</a></string>
+    <string name="DUNE">Click   <a href="https://drive.google.com/file/d/1fb4vEpp_Up32hGRHWHaBdvDrsCz8aVzi/view">DUNE</a></string>
+    <string name="Psychology_Of_Money">Click   <a href="https://www.planetayurveda.com/traditional-books/the-psychology-of-money-by-morgan-housel.pdf">Psychology_Of_Money</a></string>
+    <string name="CashFlow">Click   <a href="https://drive.google.com/file/d/0B80XVUV_17zYcEhkbkxpUnczUUk/view?resourcekey=0-2ubLQWEQjjaoY-86kIH0pw">CashFlow</a></string>
+    <string name="Think_And_Grow_Rich">Click   <a href="https://drive.google.com/file/d/0BwEKYdmMaJIGOEp6enBLM3VxRjg/view?resourcekey=0-oleVde4shCeqr-psMzy7oA">Think_And_Grow_Rich</a></string>
+    <string name="The_Martian">Click   <a href="https://www.bing.com/search?q=the+martian+a+pdf+drivecvid=6b5399e62d8f441a8bd702637aef7fc8aqs=edge.0.69i59i450l8...8.447079j0j4FORM=ANAB01PC=U531">The_Martian</a></string>
+    <string name="The_Power_of_Habit">Click   <a href="http://takechargeworld.com/wp-content/uploads/2016/09/Charles-Duhigg.The-Power-of-Habit.pdf">The_Power_of_Habit</a></string>
+    <string name="The_Unfair_Advantage">Click   <a href="https://angelliax.github.io/website/pdffiles/theunfairadvantage.pdf">The_Unfair_Advantage</a></string>
+    <string name="The_subtle_Art_Of_Not_Giving_A_Fuck">Click   <a href="https://www.docdroid.net/KyoHFx5/the-subtle-art-of-not-giving-a-fuck-pdf">The_subtle_Art_Of_Not_Giving_A_Fuck</a></string>
+    <string name="Who_Moved_My_Cheese">Click   <a href="https://www.bing.com/search?q=who+moved+my+cheese+pdf+onlinego=Rechercherqs=dsform=QBRE">Who_Moved_My_Cheese</a></string>
+
 </resources>

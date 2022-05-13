@@ -62,7 +62,10 @@
         <entry key="..\:/bookivia/app/src/main/res/drawable/welcomepic.xml" value="0.1" />
         <entry key="..\:/bookivia/app/src/main/res/drawable/welcomepic_design.xml" value="0.1" />
         <entry key="..\:/bookivia/app/src/main/res/drawable/who_design.xml" value="0.131" />
+        <entry key="..\:/bookivia/app/src/main/res/layout/activity_audiobook.xml" value="0.275" />
         <entry key="..\:/bookivia/app/src/main/res/layout/activity_categorires.xml" value="0.275" />
+        <entry key="..\:/bookivia/app/src/main/res/layout/activity_hyperlink.xml" value="0.2564814814814815" />
+        <entry key="..\:/bookivia/app/src/main/res/layout/activity_listener.xml" value="0.2564814814814815" />
         <entry key="..\:/bookivia/app/src/main/res/layout/activity_login.xml" value="0.275" />
         <entry key="..\:/bookivia/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/bookivia/app/src/main/res/layout/activity_sign_up.xml" value="0.275" />

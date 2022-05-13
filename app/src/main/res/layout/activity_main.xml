@@ -218,7 +218,7 @@
                 android:layout_marginLeft="10dp"/>
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/btn_money_audio"
                 android:layout_width="146dp"
                 android:layout_height="204dp"
                 android:layout_weight="1"

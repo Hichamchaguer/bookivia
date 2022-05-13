@@ -9,6 +9,7 @@ import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -21,6 +22,7 @@ public  MediaPlayer player;
 SeekBar seekBar;
 Handler handler = new Handler();
 TextView txtStart_listener,txt_end_listener;
+ImageView imagebook;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,6 +39,16 @@ TextView txtStart_listener,txt_end_listener;
         seekBar.setMax(player.getDuration());
         txtStart_listener = findViewById(R.id.txtStart_listener);
         txt_end_listener = findViewById(R.id.txt_end_listener);
+        imagebook = findViewById(R.id.imagebook);
+
+
+        Bundle bundle = getIntent().getExtras();
+
+        if(bundle != null)
+        {
+            int image = bundle.getInt("my_image");
+            imagebook.setImageResource(image);
+        }
 
             btn_play2_listener.setOnClickListener(new View.OnClickListener() {
                 @Override
