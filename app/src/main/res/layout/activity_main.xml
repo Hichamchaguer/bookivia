@@ -146,6 +146,7 @@
         app:layout_constraintStart_toEndOf="@+id/btn_cat_profiles" />
 
     <HorizontalScrollView
+        android:id="@+id/scroll"
         android:layout_width="409dp"
         android:layout_height="223dp"
         android:fillViewport="true"
@@ -162,14 +163,14 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/btn_richdad_home"
                 android:layout_width="146dp"
                 android:layout_height="204dp"
                 android:layout_weight="1"
                 android:background="@drawable/richdad_design" />
 
             <Button
-                android:id="@+id/button02"
+                android:id="@+id/btn_dune_home"
                 android:layout_width="146dp"
                 android:layout_height="204dp"
                 android:layout_weight="1"
@@ -177,7 +178,7 @@
                 android:layout_marginLeft="10dp"/>
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/btn_richdad_audio"
                 android:layout_width="146dp"
                 android:layout_height="204dp"
                 android:layout_weight="1"
@@ -299,7 +300,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button01"
+                android:id="@+id/btn_fourh_home"
                 android:layout_width="146dp"
                 android:layout_height="204dp"
                 android:background="@drawable/fourhour_design" />

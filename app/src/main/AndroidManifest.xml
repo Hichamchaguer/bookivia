@@ -12,8 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bookivia">
         <activity
+            android:name=".hyperlink"
+            android:exported="false" />
+        <activity
             android:name=".profiles"
-            android:exported="false" >
+            android:exported="false">
 
         </activity>
         <activity
@@ -43,18 +46,17 @@
         </activity>
         <activity
             android:name=".welcome"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".login"
-            android:exported="false">
-
         </activity>
         <activity
             android:name=".sign_up"

@@ -3,13 +3,14 @@ package com.hichamch.bookivia;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 public class audiobook extends AppCompatActivity {
-    public Button btn_home_profiles,btn_cat_profiles,btn_audio_profiles,btn_ebook_profiles,btn_profile_profiles,btn_mystorie_profiles;
-
+    public Button btn_home_profiles,btn_cat_profiles,btn_audio_profiles,btn_ebook_profiles,btn_profile_profiles,btn_mystorie_profiles,btn_richdad_audio;
+ MediaPlayer player;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +22,7 @@ public class audiobook extends AppCompatActivity {
         btn_ebook_profiles=(Button) findViewById(R.id.btn_ebook_profiles);
         btn_profile_profiles=(Button) findViewById(R.id.btn_profile_profiles);
         btn_mystorie_profiles=(Button) findViewById(R.id.btn_mystorie_profiles);
+        btn_richdad_audio = findViewById(R.id.btn_richdad_audio);
 
         btn_home_profiles.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,6 +60,15 @@ public class audiobook extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(audiobook.this,profiles.class);
                 startActivity(intent);
+            }
+        });
+
+        btn_richdad_audio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(audiobook.this,listener.class);
+                startActivity(intent);
+
             }
         });
     }

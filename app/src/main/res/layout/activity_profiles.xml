@@ -144,7 +144,7 @@
         app:layout_constraintStart_toEndOf="@+id/btn_cat_profiles" />
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/textName_profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="-218dp"
