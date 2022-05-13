@@ -1,5 +1,6 @@
 package com.hichamch.bookivia;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -8,17 +9,23 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class profiles extends AppCompatActivity {
-    public Button btn_home_profiles,btn_cat_profiles,btn_audio_profiles,btn_ebook_profiles,btn_profile_profiles,btn_mystorie_profiles;
+    public Button btn_home_profiles,btn_cat_profiles,btn_audio_profiles,btn_ebook_profiles,btn_profile_profiles,btn_mystorie_profiles,btn_resetpass_profiles;
     private TextView textName_profile,name,email;
     public static final String PROFILE = "PROFILE";
     private String profile;
+
+    FirebaseAuth mAuth;
 
     GoogleSignInOptions gso;
     GoogleSignInClient gsc;
@@ -36,10 +43,9 @@ public class profiles extends AppCompatActivity {
         textName_profile = findViewById(R.id.textName_profile);
         name = findViewById(R.id.txt_username_profiles);
         email = findViewById(R.id.txt_email_profiles);
-
-       /*Intent i = getIntent();
-        profile = i.getStringExtra(PROFILE);
-        textName_profile.setText(profile);*/
+        Button btn_signout_profiles = findViewById(R.id.btn_signout_profiles);
+        btn_resetpass_profiles = findViewById(R.id.btn_resetpassword_profile);
+        mAuth = FirebaseAuth.getInstance();
 
         btn_home_profiles.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -96,6 +102,25 @@ public class profiles extends AppCompatActivity {
             textName_profile.setText(Name);
         }
 
+        btn_signout_profiles.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                logout();
+            }
+        });
 
+
+
+
+    }
+
+    private void logout() {
+        gsc.signOut().addOnCompleteListener(new OnCompleteListener<Void>() {
+            @Override
+            public void onComplete(@NonNull Task<Void> task) {
+                finish();
+                startActivity(new Intent(getApplicationContext(),login.class));
+            }
+        });
     }
 }

@@ -49,11 +49,11 @@
         app:layout_constraintVertical_bias="0.076" />
 
     <Button
-        android:id="@+id/btn_done_profiles"
+        android:id="@+id/btn_signout_profiles"
         android:layout_width="337dp"
         android:layout_height="48dp"
         android:background="@drawable/gradientbar_design"
-        android:text="Done"
+        android:text="Sign Out"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -170,7 +170,7 @@
         android:background="@drawable/raduis_form"
         android:backgroundTint="@color/material_dynamic_neutral80"
         android:text="Reset your Password"
-        app:layout_constraintBottom_toTopOf="@+id/btn_done_profiles"
+        app:layout_constraintBottom_toTopOf="@+id/btn_signout_profiles"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
