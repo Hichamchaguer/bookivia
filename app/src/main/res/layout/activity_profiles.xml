@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/rectangle" />
 
     <EditText
-        android:id="@+id/txt_email_profiles"
+        android:id="@+id/txt_username_profiles"
         android:layout_width="344dp"
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
@@ -33,7 +33,7 @@
         app:layout_constraintVertical_bias="0.159" />
 
     <EditText
-        android:id="@+id/txt_password_profiles"
+        android:id="@+id/txt_email_profiles"
         android:layout_width="340dp"
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
@@ -43,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_email_profiles"
+        app:layout_constraintTop_toBottomOf="@+id/txt_username_profiles"
         app:layout_constraintVertical_bias="0.076" />
 
     <Button
@@ -167,6 +167,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_password_profiles" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_email_profiles" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
